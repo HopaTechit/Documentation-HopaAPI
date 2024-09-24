@@ -20,7 +20,7 @@ The API endpoint accepts data updates concerning dish details from POS systems. 
 ## API Endpoint Details
 
 ### Endpoint
-**URL**: `http://localhost:4001/v1/posRoutes/dish`
+**URL**: `https://menuapi.hopa.tech/v1/posRoutes/dish`
 **Method**: `PATCH`
 
 ### Headers
@@ -45,14 +45,15 @@ The API endpoint accepts data updates concerning dish details from POS systems. 
   "pos_id": "816583",
   "dish_catalog_id": "123456",
   "dish_name": {
-    "en": "hello",
-    "he": "yellow"
+    "he": "חומוס בשר",
+    "en": "Meat Humus"
   },
   "description": {
-    "en": "A savory sample dish description."
+    "he": "מגיע עם שתי פיתות"
+    "en": "Comes with two pita bread."
   },
-  "price": 10,
-  "is_visible": false,
+  "price": 55,
+  "is_visible": true,
   "out_of_stock": false
 }
 ```
@@ -61,7 +62,6 @@ The API endpoint accepts data updates concerning dish details from POS systems. 
 ### Success Response
 - **Code**: 204 OK
 - **Content**: no content
-```
 
 ### Error Responses
 - **Code**: 400 Bad Request
