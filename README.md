@@ -29,8 +29,8 @@ The API endpoint accepts data updates concerning dish details from POS systems. 
 
 ### Request Body
 #### Required Fields
-- **pos_id** (string): Unique identifier for the POS system.
-- **dish_catalog_id** (string): Catalog identifier of the dish.
+- **pos_id** (string): Unique identifier for the POS system This is the same identifier that was given by the POS system to Hopa's restaurant.
+- **dish_catalog_id** (string): Catalog identifier of the dish. This is the same identifier that was given by the POS system.
 
 #### Optional Fields
 - **dish_name** (object): Multilingual name of the dish provided in key-value pairs where keys are language codes.
