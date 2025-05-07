@@ -20,7 +20,7 @@ The API endpoint accepts data updates concerning dish details from POS systems. 
 ## API Endpoint Details
 
 ### Endpoint
-**URL**: `https://menuapi.hopa.tech/v1/posRoutes/dish`
+**URL**: `https://menuprod.hopa.tech/v1/posRoutes/dish`
 
 **Method**: `PATCH`
 
